@@ -1,0 +1,41 @@
+.wrap {
+  width: 200px;
+  height: 200px;
+  background: #f5f5f5;
+}
+/*变量，颜色的加减*/
+/*#123实际是#112233*/
+#header {
+  width: 200px;
+  height: 200px;
+  background: #f5f5f5;
+  font-size: 20px;
+  color: #6c94be;
+  /*#6c94be*/
+}
+/*混合*/
+.bordered {
+  width: 200px;
+  height: 200px;
+  background: #f5f5f5;
+  border-top: 1px black dotted;
+  border-bottom: 1px black solid;
+}
+#menu a {
+  color: #111;
+  border-top: 1px black dotted;
+  border-bottom: 1px black solid;
+  width: 200px;
+  height: 200px;
+  background: #f5f5f5;
+}
+#post a {
+  color: red;
+  border-top: 1px black dotted;
+  border-bottom: 1px black solid;
+  width: 200px;
+  height: 200px;
+  background: #f5f5f5;
+}
+/*嵌套*/
+/*选择器*/

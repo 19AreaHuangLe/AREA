@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试</title>
+    <style>
+        .a {
+            display: block;
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            font-size: 16px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .a.b {
+            background: #00bbff;
+            color: #ffffff;
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+        }
+
+        .c {
+            background: #c5ffdb;
+            color: #2b0fff;
+        }
+
+        /*三角符号*/
+        .arrow{
+            position: relative;
+            display:inline-block;
+
+            /*border:1px solid #000;*/
+            border-width: 20px;
+            border-style:solid;
+            border-color: transparent transparent #000 transparent;
+        }
+        /*带边框的三角符号*/
+        .arrow:after{
+            position: absolute;
+            top: 0;
+            left: 50%;
+            margin-left: -19px;
+            content: "";
+            display:inline-block;
+            border-width: 20px;
+            border-style:solid;
+            border-color: transparent transparent #f2f2f2 transparent;
+        }
+    </style>
+</head>
+<body>
+<div class="a b">
+    123456
+</div>
+<div class="a c">
+    123456789
+</div>
+
+<div class="arrow"></div>
+</body>
+</html>

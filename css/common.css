@@ -1,0 +1,103 @@
+/*
+*公共样式表
+*/
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+    visibility: visible;
+    overflow: hidden;
+    zoom: 1;
+    height: 0;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+.p-fixed {
+    position: fixed;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-in-block {
+    display: inline-block;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.d-table {
+    display: table;
+}
+
+.z-index-big {
+    z-index: 99999;
+}
+
+.z-index-small {
+    z-index: 1;
+}
+
+/*列表布局*/
+.dc-list-box {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.dc-list-box ul {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.dc-list-box ul.col-1 li {
+    width: 100%;
+}
+
+.dc-list-box ul.col-2 li {
+    width: 50%;
+}
+
+.dc-list-box ul.col-3 li {
+    width: 33.33%;
+}
+
+.dc-list-box ul.col-4 li {
+    width: 25%;
+}
+
+.dc-list-box ul.col-5 li {
+    width: 20%;
+}
+
+.dc-list-box ul li{
+    float: left;
+}
+
+
+
+
+
+
+
+
+

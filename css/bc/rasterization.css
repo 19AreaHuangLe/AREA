@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+
+ul{
+    display:block;
+    padding: 0;
+    margin: 0 -5px;
+    list-style-type: none;
+}
+
+ul:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+li{
+    width: 25%;
+    float:left;
+}
+
+label{
+    display: block;
+    padding: 0 5px;
+}
+
+img{
+    width: 100%;
+}

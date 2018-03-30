@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>less练习</title>
+    <link rel="stylesheet" href="../../css/bc/base.css">
+    <style>
+        .triangle{
+            position: relative;
+            display: inline-block;
+            border: 50px solid transparent;
+            border-bottom-color: red;
+        }
+        .triangle:after{
+            position: absolute;
+            top:-47px;
+            left:-50px;
+            content: "";
+
+            border-width: 50px;
+            border-color: transparent transparent black transparent;
+            border-style: solid;
+        }
+    </style>
+</head>
+<body>
+    <!--<div class="">-->
+        <!--<div id="header">aaaaa</div>-->
+        <!--<div id="menu">-->
+            <!--<a>111111</a>-->
+        <!--</div>-->
+        <!--<div id="post">-->
+            <!--<a>222222</a>-->
+        <!--</div>-->
+        <!--<div class="bordered"></div>-->
+        <!--<div class="bordered"></div>-->
+        <!--<div class="bordered"></div>-->
+        <!--<div class="bordered"></div>-->
+    <!--</div>-->
+    <div class="triangle"></div>
+</body>
+</html>

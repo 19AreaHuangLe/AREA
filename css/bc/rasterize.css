@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+.wrap {
+    width: 100%;
+}
+
+.content {
+    /*width: 100%;*/
+    /*display: block;*/
+    overflow: hidden;
+}
+
+.content ul {
+    padding: 0;
+    list-style-type: none;
+    display: block;
+    margin: 0 -5px;
+}
+
+ul:after {
+    content: "";
+    clear: both;
+    display: table;
+    visibility: visible;
+    height: 0;
+}
+
+.content ul li {
+    vertical-align: top;
+    float: left;
+    width: 33.33%;
+}
+
+.content ul li label{
+    display: block;
+    padding: 0 5px;
+}
+
+.content ul li img {
+    width: 100%;
+}

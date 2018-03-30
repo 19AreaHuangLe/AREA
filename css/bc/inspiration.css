@@ -1,0 +1,420 @@
+/*!*显示隐藏*!*/
+/*.d-block {*/
+  /*display: block;*/
+/*}*/
+/*.d-inline {*/
+  /*display: inline;*/
+/*}*/
+/*.d-inline-block {*/
+  /*display: inline-block;*/
+/*}*/
+/*!*溢出隐藏*!*/
+/*.vis-hidden {*/
+  /*visibility: hidden;*/
+/*}*/
+/*!*搜索框*!*/
+/*.search-box {*/
+  /*color: #000;*/
+/*}*/
+/*!*三角符号transparent(透明)*!*/
+/*.triangle {*/
+  /*display: inline-block;*/
+  /*border-width: 6px;*/
+  /*border-style: solid;*/
+  /*border-color: #ccc transparent transparent transparent;*/
+  /*!*让上、右、左的边框变透明*!*/
+/*}*/
+/*!*带边框的三角符号*!*/
+/*.border-triangle {*/
+  /*position: relative;*/
+  /*display: inline-block;*/
+  /*border-width: 5px;*/
+  /*border-style: solid;*/
+  /*border-color: transparent transparent #000 transparent;*/
+/*}*/
+/*.border-triangle:after {*/
+  /*position: absolute;*/
+  /*top: -9px;*/
+  /*left: -10px;*/
+  /*content: "";*/
+  /*display: inline-block;*/
+  /*border-width: 10px;*/
+  /*border-style: solid;*/
+  /*border-color: transparent transparent #ccc transparent;*/
+/*}*/
+/*!*斜体字变正常*!*/
+/*.i,*/
+/*em {*/
+  /*font-style: normal;*/
+/*}*/
+/*!*清除浮动*!*/
+/*.c-clearfix {*/
+  /*clear: both;*/
+  /*content: "";*/
+  /*display: block;*/
+/*}*/
+/*!*页头*!*/
+/*.h {*/
+  /*position: fixed;*/
+  /*z-index: 100;*/
+  /*top: 0;*/
+  /*left: 0;*/
+  /*width: 100%;*/
+  /*height: 60px;*/
+  /*background: rgba(0, 0, 0, 0.75);*/
+/*}*/
+/*.h .header-box {*/
+  /*width: 1200px;*/
+  /*height: 60px;*/
+  /*line-height: 60px;*/
+  /*margin: auto;*/
+/*}*/
+/*.h .header-box .logo-box {*/
+  /*float: left;*/
+  /*width: 35%;*/
+  /*height: 100%;*/
+/*}*/
+/*.h .header-box .logo-box .logo {*/
+  /*float: left;*/
+  /*height: 60px;*/
+/*}*/
+/*.h .header-box .logo-box .logo img {*/
+  /*margin-top: 11px;*/
+/*}*/
+/*.h .header-box .logo-box .area-box {*/
+  /*position: relative;*/
+  /*z-index: 30;*/
+  /*float: left;*/
+  /*width: 120px;*/
+  /*height: 60px;*/
+  /*line-height: 60px;*/
+/*}*/
+/*.h .header-box .logo-box .area-box .area-icon {*/
+  /*position: absolute;*/
+  /*z-index: 40;*/
+  /*top: 10%;*/
+  /*left: 0;*/
+  /*width: 21px;*/
+  /*height: 25px;*/
+/*}*/
+/*.h .header-box .logo-box .area-box .cityName {*/
+  /*display: inline-block;*/
+  /*margin-left: 22px;*/
+  /*color: #fff;*/
+  /*font-size: 14px;*/
+/*}*/
+/*.h .header-box .logo-box .area-box em {*/
+  /*position: absolute;*/
+  /*z-index: 40;*/
+  /*top: 50%;*/
+  /*left: 59%;*/
+  /*display: inline-block;*/
+  /*border-width: 6px;*/
+  /*border-style: solid;*/
+  /*border-color: #ccc transparent transparent transparent;*/
+  /*!*让上、右、左的边框变透明*!*/
+/*}*/
+/*.h .header-box .nav-box {*/
+  /*float: left;*/
+  /*width: 65%;*/
+  /*height: 60px;*/
+  /*line-height: 60px;*/
+/*}*/
+/*.h .header-box .nav-box .clearfix {*/
+  /*clear: both;*/
+  /*content: "";*/
+  /*display: block;*/
+/*}*/
+/*.h .header-box .nav-box ul {*/
+  /*margin: 0;*/
+  /*padding: 0;*/
+  /*list-style: none;*/
+/*}*/
+/*.h .header-box .nav-box ul li {*/
+  /*float: left;*/
+  /*display: block;*/
+  /*width: 15%;*/
+  /*text-align: center;*/
+/*}*/
+/*.h .header-box .nav-box ul li a {*/
+  /*text-decoration: none;*/
+  /*height: 58px;*/
+  /*padding: 0 10px;*/
+/*}*/
+/*.h .header-box .nav-box ul li a:link,*/
+/*.h .header-box .nav-box ul li a:visited {*/
+  /*color: #fff;*/
+  /*font-size: 14px;*/
+/*}*/
+/*.h .header-box .nav-box ul li a:hover,*/
+/*.h .header-box .nav-box ul li a:active {*/
+  /*color: #0bf;*/
+  /*border-bottom: 2px #0bf solid;*/
+/*}*/
+/*.h .header-box .nav-box ul li .header-web {*/
+  /*padding: 0 10px;*/
+/*}*/
+/*.h .header-box .nav-box ul li .header-web:link,*/
+/*.h .header-box .nav-box ul li .header-web:visited {*/
+  /*color: #0bf;*/
+  /*border-bottom: 2px #0bf solid;*/
+/*}*/
+/*.h .header-box .nav-box a {*/
+  /*float: right;*/
+  /*margin-right: 20px;*/
+  /*color: #0bf;*/
+  /*font-size: 14px;*/
+  /*text-decoration: none;*/
+/*}*/
+/*.h .header-box .nav-box a i {*/
+  /*margin: 0 10px;*/
+/*}*/
+/*!*搜索框*!*/
+/*.search-cont {*/
+  /*width: 606px;*/
+  /*height: 60px;*/
+/*}*/
+/*.search-cont .search-text {*/
+  /*position: relative;*/
+  /*z-index: 150;*/
+  /*float: left;*/
+  /*width: 456px;*/
+  /*height: 48px;*/
+  /*background: #fff;*/
+  /*border-radius: 5px 0 0 5px;*/
+/*}*/
+/*.search-cont .search-text label {*/
+  /*float: left;*/
+  /*width: 50px;*/
+  /*height: 48px;*/
+/*}*/
+/*.search-cont .search-text label img {*/
+  /*width: 50%;*/
+  /*height: 50%;*/
+  /*margin: 12px 0 0 12px;*/
+/*}*/
+/*.search-cont .search-text input {*/
+  /*width: 80%;*/
+  /*height: 20px;*/
+  /*margin-top: 12px;*/
+  /*border: 0;*/
+/*}*/
+/*.search-cont .search-text a {*/
+  /*position: absolute;*/
+  /*z-index: 180;*/
+  /*top: 0;*/
+  /*right: 10px;*/
+  /*text-decoration: none;*/
+  /*color: #999;*/
+  /*font-size: 32px;*/
+  /*font-weight: lighter;*/
+/*}*/
+/*.search-cont .search-btn {*/
+  /*float: right;*/
+  /*width: 150px;*/
+  /*height: 48px;*/
+  /*line-height: 48px;*/
+  /*text-align: center;*/
+  /*text-decoration: none;*/
+  /*background: #0bf;*/
+  /*border-radius: 0 5px 5px 0;*/
+  /*color: #fff;*/
+  /*font-size: 16px;*/
+/*}*/
+/*.search-cont .search-keywords {*/
+  /*margin-top: 60px;*/
+  /*width: 456px;*/
+  /*height: 20px;*/
+/*}*/
+/*.search-cont .search-keywords ul {*/
+  /*margin: 0;*/
+  /*padding: 0;*/
+  /*list-style: none;*/
+/*}*/
+/*.search-cont .search-keywords ul li {*/
+  /*float: left;*/
+/*}*/
+/*.search-cont .search-keywords ul li a {*/
+  /*text-decoration: none;*/
+  /*margin: 0 10px;*/
+  /*color: #fff;*/
+  /*font-size: 12px;*/
+/*}*/
+/*!*选择风格，户型*!*/
+/*.choose-box {*/
+  /*width: 100%;*/
+  /*padding-top: 20px;*/
+/*}*/
+/*.choose-box .choose-cont {*/
+  /*width: 1200px;*/
+  /*height: 142px;*/
+  /*margin: auto;*/
+  /*background: #fff;*/
+/*}*/
+/*.choose-box .choose-cont .choose-style {*/
+  /*height: 24px;*/
+  /*margin: 10px 0;*/
+/*}*/
+/*.choose-box .choose-cont .choose-style.styles {*/
+  /*padding-top: 25px;*/
+/*}*/
+/*.choose-box .choose-cont .choose-style ul {*/
+  /*padding: 0;*/
+  /*margin: 0 0 0 15px;*/
+  /*list-style: none;*/
+/*}*/
+/*.choose-box .choose-cont .choose-style ul li {*/
+  /*float: left;*/
+/*}*/
+/*.choose-box .choose-cont .choose-style ul li a {*/
+  /*margin-left: 20px;*/
+  /*text-decoration: none;*/
+  /*color: #666;*/
+  /*font-size: 14px;*/
+/*}*/
+/*.choose-box .choose-cont .choose-style ul li .styles {*/
+  /*color: #333;*/
+  /*font-weight: 700;*/
+/*}*/
+/*.choose-box .choose-cont .choose-style ul li .limit {*/
+  /*color: #e60012;*/
+/*}*/
+/*!*内容*!*/
+/*.centent-cent {*/
+  /*width: 100%;*/
+  /*height: 50px;*/
+  /*margin-top: 10px;*/
+/*}*/
+/*!*@import(reference)不会将导入的样式添加到编译的CSS文件中*!*/
+/*!*定位*!*/
+/*!*浮动*!*/
+/*!*块级元素、行内元素*!*/
+/*!*居中*!*/
+/*!*外边距、内边距*!*/
+/*!*左右自适应*!*/
+/*!*距离*!*/
+/*!*高宽*!*/
+/*!*字体大小*!*/
+/*!*字体下划线*!*/
+/*!*字体样式*!*/
+/*!*去掉下划线*!*/
+/*!*清除ul样式*!*/
+/*!*颜色*!*/
+/*!*背景色透明度*!*/
+/*!*图片路径*!*/
+/*body {*/
+  /*margin: 0;*/
+/*}*/
+/*.wrap {*/
+  /*width: 100%;*/
+/*}*/
+/*.header {*/
+  /*position: fixed;*/
+  /*z-index: 100;*/
+  /*top: 0;*/
+  /*left: 0;*/
+  /*width: 100%;*/
+  /*height: 60px;*/
+  /*background: rgba(0, 0, 0, 0.75);*/
+/*}*/
+/*.header-box {*/
+  /*width: 1200px;*/
+  /*height: 100%;*/
+  /*margin: auto;*/
+/*}*/
+/*.logo-box {*/
+  /*position: relative;*/
+  /*z-index: 10;*/
+  /*float: left;*/
+  /*width: 35%;*/
+  /*height: 100%;*/
+/*}*/
+/*.logo {*/
+  /*display: block;*/
+  /*float: left;*/
+  /*height: 100%;*/
+/*}*/
+/*.logo img {*/
+  /*margin-top: 11px;*/
+/*}*/
+/*.area-box {*/
+  /*height: 60px;*/
+  /*line-height: 60px;*/
+/*}*/
+/*.area-box .area-icon {*/
+  /*position: absolute;*/
+  /*z-index: 20;*/
+  /*top: 10%;*/
+  /*left: 45%;*/
+/*}*/
+/*.area-box .cityName {*/
+  /*padding-left: 15px;*/
+  /*color: #fff;*/
+  /*font-size: 14px;*/
+/*}*/
+/*.clearfix {*/
+  /*content: "";*/
+  /*clear: both;*/
+  /*display: block;*/
+/*}*/
+/*.header-content {*/
+  /*float: right;*/
+  /*display: block;*/
+  /*width: 65%;*/
+  /*height: 60px;*/
+  /*line-height: 60px;*/
+/*}*/
+/*.header-content .header-cont-box {*/
+  /*margin: 0;*/
+  /*padding: 0;*/
+  /*list-style-type: none;*/
+/*}*/
+/*.header-content .header-cont-box li {*/
+  /*float: left;*/
+  /*width: 15%;*/
+  /*text-align: center;*/
+/*}*/
+/*.header-content .header-cont-box li a {*/
+  /*display: inline-block;*/
+  /*height: 57px;*/
+  /*padding: 0 10px;*/
+  /*color: #fff;*/
+  /*font-size: 14px;*/
+  /*text-decoration: none;*/
+/*}*/
+/*.header-content .header-cont-box li a:hover,*/
+/*.header-content .header-cont-box li a:active {*/
+  /*color: #0bf;*/
+  /*border-bottom: 2px #00bbff solid;*/
+/*}*/
+/*.header-content .header-cont-box li .home-page {*/
+  /*color: #0bf;*/
+  /*border-bottom: 2px #00bbff solid;*/
+/*}*/
+/*.header-content i,*/
+/*.header-content em {*/
+  /*font-style: normal;*/
+/*}*/
+/*.header-content .login {*/
+  /*margin-right: 20px;*/
+/*}*/
+/*.header-content .login a {*/
+  /*float: right;*/
+  /*text-decoration: none;*/
+  /*color: #0bf;*/
+  /*font-size: 14px;*/
+/*}*/
+/*.header-content .login a i {*/
+  /*margin: 0 10px;*/
+/*}*/
+/*.banner {*/
+  /*position: relative;*/
+  /*z-index: 20;*/
+  /*width: 100%;*/
+  /*height: 650px;*/
+/*}*/
+/*.banner .header-banner {*/
+  /*width: 100%;*/
+  /*height: 100%;*/
+  /*background: url("../images/banner.png") center;*/
+/*}*/

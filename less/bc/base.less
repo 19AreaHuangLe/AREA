@@ -1,0 +1,56 @@
+//@import "public";
+//@import "inspiration";
+.wrap{
+  width: 200px;
+  height: 200px;
+  background: #f5f5f5;
+}
+
+/*变量，颜色的加减*/
+@nice-blue:#5B83AD;
+@light-blue:@nice-blue+#111;/*#123实际是#112233*/
+#header{
+  .wrap();
+  font-size: 20px;
+  color: @light-blue;/*#6c94be*/
+}
+
+/*混合*/
+.bordered {
+  .wrap();
+  border-top: 1px black dotted;
+  border-bottom: 1px black solid;
+}
+#menu a{
+  color: #111;
+  .bordered();
+  .wrap();
+}
+#post a{
+  color: red;
+  .bordered();
+  .wrap();
+}
+
+/*嵌套*/
+#header{
+  #menu{
+
+  }
+  #post{
+
+  }
+}
+
+/*选择器*/
+#header{
+  &#menu{
+
+  }
+}
+#header{
+  #header #menu{
+
+  }
+}
+
