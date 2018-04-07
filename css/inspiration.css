@@ -1,0 +1,133 @@
+/*@import(reference)不会将导入的样式添加到编译的CSS文件中*/
+/*定位*/
+/*浮动*/
+/*块级元素、行内元素*/
+/*居中*/
+/*外边距、内边距*/
+/*左右自适应*/
+/*距离*/
+/*高宽*/
+/*字体大小*/
+/*字体下划线*/
+/*字体样式*/
+/*去掉下划线*/
+/*清除ul样式*/
+/*颜色*/
+/*背景色透明度*/
+/*图片路径*/
+body {
+  margin: 0;
+}
+.wrap {
+  width: 100%;
+}
+.header {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.75);
+}
+.header-box {
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+}
+.logo-box {
+  position: relative;
+  z-index: 10;
+  float: left;
+  width: 35%;
+  height: 100%;
+}
+.logo {
+  display: block;
+  float: left;
+  height: 100%;
+}
+.logo img {
+  margin-top: 11px;
+}
+.area-box {
+  height: 60px;
+  line-height: 60px;
+}
+.area-box .area-icon {
+  position: absolute;
+  z-index: 20;
+  top: 10%;
+  left: 45%;
+}
+.area-box .cityName {
+  padding-left: 15px;
+  color: #fff;
+  font-size: 14px;
+}
+.clearfix {
+  content: "";
+  clear: both;
+  display: block;
+}
+.header-content {
+  float: right;
+  display: block;
+  width: 65%;
+  height: 60px;
+  line-height: 60px;
+}
+.header-content .header-cont-box {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.header-content .header-cont-box li {
+  float: left;
+  width: 15%;
+  text-align: center;
+}
+.header-content .header-cont-box li a {
+  display: inline-block;
+  height: 57px;
+  padding: 0 10px;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+.header-content .header-cont-box li a:hover,
+.header-content .header-cont-box li a:active {
+  color: #0bf;
+  border-bottom: 2px #00bbff solid;
+}
+.header-content .header-cont-box li .home-page {
+  color: #0bf;
+  border-bottom: 2px #00bbff solid;
+}
+.header-content i,
+.header-content em {
+  font-style: normal;
+}
+.header-content .login {
+  margin-right: 20px;
+}
+.header-content .login a {
+  float: right;
+  text-decoration: none;
+  color: #0bf;
+  font-size: 14px;
+}
+.header-content .login a i {
+  margin: 0 10px;
+}
+.banner {
+  position: relative;
+  z-index: 20;
+  width: 100%;
+  height: 650px;
+}
+.banner .header-banner {
+  width: 100%;
+  height: 100%;
+  background: url("../../images/banner.png") center;
+}
